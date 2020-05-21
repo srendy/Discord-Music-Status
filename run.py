@@ -19,7 +19,7 @@ default_config = "[Config]\ntoken = \nsnip = "
 
 config = configparser.ConfigParser()
 
-token = ""
+token = "NzEzMDgxNjg0NDkyMjg4MDYx.XsbHNQ.3L31ilVfUPyvvRN90FfIzfi19_o"
 snip = ""
 
 if os.path.exists("config.ini"):
@@ -59,7 +59,7 @@ else:
 
 logger.info("Config loaded")
 
-bot = commands.Bot(command_prefix=['m.'], self_bot=True)
+bot = commands.Bot(command_prefix=['m!'], self_bot=True)
 bot.remove_command('help')
 
 
